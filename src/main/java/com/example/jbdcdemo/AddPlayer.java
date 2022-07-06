@@ -16,7 +16,7 @@ public class AddPlayer {
         statement.executeUpdate("INSERT INTO player " + "VALUES( 11, 'https://www.2kratings.com/trae-young', 'USA', 1.8, '1998-9-19', 20000000, 'Atlanta Hawks', 'Trae Young', 11, 14)");
 
 
-        connection.close();          
+        connection.close();
     } catch (
     Exception e) {
         e.printStackTrace();
